@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(76, 12, 80);
+}
+
+#top
+{
+    text-align: center;
+    color: red;
+    font-size: 46px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#top1
+{
+    font-size: 21px;
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#navbar
+{
+    background-color: grey;
+    text-decoration: none;
+    justify-items: center;
+}
+#navbar img
+{
+    display: block;
+    height: 7vh;
+    width: 7vh;
+    margin: auto;
+    margin-bottom: 3px;
+}
+#navbar
+{
+    display: flex;
+    flex-direction: column;
+    height: 17vh;
+    width: 100vh;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#navcont
+{
+    display: flex;
+    justify-content: center;
+}
+ul li
+{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a
+{
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+ul li a:hover
+{
+    background-color: red;
+    border-radius: 10px;
+}
+#container1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height:63vh;
+}
