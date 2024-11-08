@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+}
+#top {
+    height: 70px;
+    background-color: black;
+}
+
+#foot {
+    background-color: black;
+    height: 200px;
+    border-top: 1px solid rgb(115, 115, 115);
+}
+
+#all {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    
+    
+}
+
+
+button {
+    color: white;
+    height: 50px;
+    width: 1500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1500px;
+    /* margin-left: 10px; */
+    /* display: none; */
+}
+thead {
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+    
+}
+
+.easy{
+    color: rgb(10, 248, 10);
+}
+.med {
+    color: orange;
+}
+.hard {
+    color: red;
+}
+
+tr td {
+    background-color: rgb(94, 94, 94);
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(94, 94, 94);
+}
+tr {
+    border: 2px solid black;
+}
+
+th {
+    color: white;
+    background-color: black;
+}
+ul {
+    background-color: black;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+   
+}
+a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+li {
+    margin-top: 25px;
+}
+
+td a {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}

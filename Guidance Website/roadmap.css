@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+    background-color: black;
+    height: 60px;
+}
+
+.header {
+    height: 7%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+
+.farji {
+    height: 7%;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.click a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: rgb(0, 9, 9);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#theme i {
+    cursor: pointer;
+    color: white;
+    font-size: x-large;
+}
+
+a img {
+    height: 70px;
+}
+
+#txt {
+    background-color: rgb(37, 8, 64);
+    height: 200px;
+}
+
+#notice {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 8, 64);
+    color: white;
+    font-size: x-large;
+
+}
+
+#notice {
+    border-top: 2px solid purple;
+}
+
+p {
+    border: 1px solid purple;
+    padding: 10px 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+#rmap {
+    height: fit-content;
+    background-color: rgb(37, 8, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    border-bottom: 1px solid purple;
+}
+
+
+li {
+    color: white;
+    height: 40px;
+    width: 300px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px 25px 0px 25px;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 1100px;
+    gap: 5px;
+
+}
+
+#lang {
+    height: fit-content;
+    background-color: rgb(37, 8, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    border-bottom: 2px solid purple;
+}
+
+#foot {
+    height: 100px;
+    background-color: black;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(29, 5, 52);
+    color: purple;
+}

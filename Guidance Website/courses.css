@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+
+.header {
+    height: 7%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.farji {
+    height: 7%;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.click a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: rgb(0, 9, 9);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+/* #theme i {
+    cursor: pointer;
+    color: white;
+    font-size: x-large;
+} */
+
+a img {
+    height: 70px;
+}
+
+.main {
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #001219;
+}
+
+.container {
+    margin: 50px 100px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box { 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 100px;
+    width: 300px;
+}
+.box:hover{
+    height: 90px;
+    width: 290px;
+}
+
+.box a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+footer.bottom{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+}
+.contact{
+     font-size:larger;
+}
+h3{
+    color: aqua;
+}
